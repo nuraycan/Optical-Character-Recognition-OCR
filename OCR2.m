@@ -19,7 +19,7 @@ grid on;
 title('Perceptron Algorithm');
 % Solution
 X=[[Class1',ones(10,1)];[Class2',ones(10,1)]]'%Data Matrix
-P=[Class1, Class2]  %%   2-by-20 training data
+P=[Class1, Class2]  % 2-by-20 training data
 bias=ones(20,1)
 %---Defining Weights---%
 w=rand(20,2)  %random weights 20-by-2
