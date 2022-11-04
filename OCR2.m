@@ -17,7 +17,7 @@ hold on;
 plot(Class2(1,:),Class2(2,:),'b+','LineWidth',3)
 grid on;
 title('Perceptron Algorithm');
-%% Solution
+% Solution
 X=[[Class1',ones(10,1)];[Class2',ones(10,1)]]'%Data Matrix
 P=[Class1, Class2]  %%   2-by-20 training data
 bias=ones(20,1)
